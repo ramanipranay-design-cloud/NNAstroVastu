@@ -62,7 +62,7 @@ export function ContactSection() {
 
         <div className="flex flex-wrap items-center justify-center gap-4">
           <a
-            href="https://wa.me/919999999999"
+            href="https://wa.me/917710819122"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-sm transition-all duration-300"

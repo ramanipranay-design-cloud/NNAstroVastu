@@ -70,9 +70,9 @@ export function FooterSection() {
             </h4>
             <ul className="space-y-3">
               {[
-                { icon: <LocationIcon />, text: "123 Harmony Lane, Vastu Nagar,\nPune, Maharashtra 411001" },
-                { icon: <PhoneIcon />, text: "+91 99999 99999" },
-                { icon: <MailIcon />, text: "contact@normaneptune.com" },
+                { icon: <LocationIcon />, text: " Shop No. 06, Sharda Palace CHS, Sector-10,\n New Panvel (East), Navi Mumbai - 410206" },
+                { icon: <PhoneIcon />, text: "+91 77108 19122" },
+                { icon: <MailIcon />, text: "g181072g@gmail.com" },
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <span style={{ color: "#D4AF37", marginTop: "2px", flexShrink: 0 }}>{item.icon}</span>

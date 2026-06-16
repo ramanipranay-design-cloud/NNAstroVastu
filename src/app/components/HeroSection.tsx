@@ -57,6 +57,22 @@ export function HeroSection() {
               Offices & Personal Wellbeing.
             </p>
 
+            {/* Qualifications */}
+            <div className="flex items-center gap-3">
+              <span className="h-px w-5" style={{ background: "rgba(212,175,55,0.5)", flexShrink: 0 }} />
+              <p
+                style={{
+                  fontFamily: "'Poppins', sans-serif",
+                  fontWeight: 400,
+                  fontSize: "0.72rem",
+                  letterSpacing: "0.14em",
+                  color: "rgba(212,175,55,0.85)",
+                }}
+              >
+                B.Sc &nbsp;•&nbsp; MBA &nbsp;•&nbsp; MA in Astrology &nbsp;•&nbsp; PhD in Astrology
+              </p>
+            </div>
+
             <div className="flex flex-wrap gap-4 pt-2">
               <a
                 href="tel:+919999999999"

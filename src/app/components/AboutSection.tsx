@@ -73,6 +73,79 @@ export function AboutSection() {
           </p>
         </div>
 
+        {/* Institution Leadership */}
+        <div className="mb-16">
+          <div className="flex items-center justify-center gap-4 mb-8">
+            <span className="h-px flex-1 max-w-[60px]" style={{ background: "rgba(212,175,55,0.3)" }} />
+            <p
+              style={{
+                fontFamily: "'Poppins', sans-serif",
+                fontSize: "0.65rem",
+                letterSpacing: "0.26em",
+                textTransform: "uppercase",
+                color: "#D4AF37",
+                fontWeight: 500,
+              }}
+            >
+              Institution Leadership
+            </p>
+            <span className="h-px flex-1 max-w-[60px]" style={{ background: "rgba(212,175,55,0.3)" }} />
+          </div>
+
+          <div className="grid sm:grid-cols-2 gap-5 max-w-2xl mx-auto">
+            {[
+              { role: "Director of Institution", name: "Smt. Gauri Patil" },
+              { role: "Adviser & Guide", name: "Dr. Girish Patil" },
+            ].map(person => (
+              <div
+                key={person.role}
+                className="flex items-start gap-4 p-6 rounded-sm"
+                style={{
+                  background: "#F5EFE6",
+                  border: "1px solid rgba(212,175,55,0.15)",
+                  boxShadow: "0 2px 16px rgba(212,175,55,0.06)",
+                }}
+              >
+                <div
+                  className="flex-shrink-0 mt-0.5"
+                  style={{
+                    width: "3px",
+                    height: "36px",
+                    background: "linear-gradient(to bottom, #D4AF37, rgba(212,175,55,0.2))",
+                    borderRadius: "2px",
+                  }}
+                />
+                <div>
+                  <p
+                    style={{
+                      fontFamily: "'Poppins', sans-serif",
+                      fontSize: "0.68rem",
+                      letterSpacing: "0.12em",
+                      textTransform: "uppercase",
+                      color: "#D4AF37",
+                      fontWeight: 500,
+                      marginBottom: "0.3rem",
+                    }}
+                  >
+                    {person.role}
+                  </p>
+                  <p
+                    style={{
+                      fontFamily: "'Playfair Display', serif",
+                      fontSize: "1.1rem",
+                      fontWeight: 600,
+                      color: "#0F172A",
+                      lineHeight: 1.2,
+                    }}
+                  >
+                    {person.name}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* Feature cards */}
         <div className="grid md:grid-cols-3 gap-8">
           {features.map(f => (

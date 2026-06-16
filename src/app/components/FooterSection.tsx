@@ -111,8 +111,8 @@ export function FooterSection() {
             <ul className="space-y-2">
               {[
                 { day: "Monday – Friday", hours: "7:00 PM – 9:00 PM" },
-                { day: "Saturday", hours: "11:00 AM – 10:00 PM | By Appointment Only" },
-                { day: "Sunday", hours: "11:00 AM – 10:00 PM | By Appointment Only" },
+                { day: "Saturday", hours: "11:00 AM – 10:00 PM \n By Appointment Only" },
+                { day: "Sunday", hours: "11:00 AM – 10:00 PM \n By Appointment Only" },
               ].map(row => (
                 <li
                   key={row.day}

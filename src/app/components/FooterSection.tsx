@@ -110,9 +110,9 @@ export function FooterSection() {
             </h4>
             <ul className="space-y-2">
               {[
-                { day: "Monday – Friday", hours: "9:00 AM – 7:00 PM" },
-                { day: "Saturday", hours: "10:00 AM – 5:00 PM" },
-                { day: "Sunday", hours: "By Appointment Only" },
+                { day: "Monday – Friday", hours: "7:00 PM – 9:00 PM" },
+                { day: "Saturday", hours: "11:00 AM – 10:00 PM | By Appointment Only" },
+                { day: "Sunday", hours: "11:00 AM – 10:00 PM | By Appointment Only" },
               ].map(row => (
                 <li
                   key={row.day}
@@ -143,7 +143,7 @@ export function FooterSection() {
               color: "rgba(250,247,242,0.3)",
             }}
           >
-            © 2024 Norma Neptune Astro Vastu. All rights reserved.
+            © 2026 Norma Neptune Astro Vastu. All rights reserved.
           </p>
           <p
             style={{
@@ -152,7 +152,7 @@ export function FooterSection() {
               color: "rgba(250,247,242,0.3)",
             }}
           >
-            Dr. Girish Patil — Certified Astro Vastu Consultant
+            Dr. Girish Patil - Certified Astro Vastu Consultant
           </p>
         </div>
       </div>
